@@ -1,0 +1,273 @@
+*{margin:0;padding:0;font-size: 14px;outline-style: none;font-family: 微软雅黑;list-style-type: none;text-decoration: none;}
+.body{position:absolute;background: url(../img/index_dim.jpg) 50% 0 no-repeat;width: 100%;height: 100%;display: block;
+z-index: -3;
+}
+.wrap{width: 1000px;margin: 0 auto;}
+.header{
+	width: 100%;
+	background-color: #000;
+	opacity: .75;
+	filter:alpha(opacity=70);
+	height:64px;
+}
+.header a{
+	display: block;
+	padding: 14px 0 0 30px;
+}
+.header img{width:219px;}
+
+.contender-main{
+}
+
+
+.circleBgWrap{
+	position: absolute;
+	background-color: #000;
+	opacity: .25;
+	z-index: -1;
+	height: 100%;
+	width: 100%;
+}
+.circleBg{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-position: 50% 0;
+	background-repeat: no-repeat;
+	z-index: -1;
+}
+.main{padding-top: 134px; }
+
+.title{
+	width: 377px;
+	height: 103px;
+	margin: 0 auto;
+	background: url(../img/logo.png);
+}
+
+.box{margin:94px auto 0;width: 1200px;}
+.box li{width: 216px;height: 216px;float: left;margin-right:20px;z-index: -1;position: relative;}
+.box-cover{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	opacity: .25;
+	filter: alpha(opacity:25);
+	border-radius: 50%;
+	z-index: -1;
+}
+.box-cover-on{
+	background: url(../img/index_hover_1.png) no-repeat;
+	position: absolute;
+	top:2%;
+	left:2%;
+	width: 96%;
+	height: 96%;
+	border-radius: 50%;
+}
+.box-contender{z-index:0;background: url(../img/index_hover_words.png) no-repeat;position: absolute;top: 45%;left: 50%;}
+.box .item1{background: url(../img/group.png) no-repeat 0 0;}
+.box .item1 .box-contender{  
+    width: 185px;
+    height: 53px;
+    background-position: -10px -199px;
+    margin-left: -92.5px;
+}
+.leave{opacity: 0;animation: leave1 .15s ease-out forwards;}
+.hover{opacity: 1;animation: cover1 .15s ease-out forwards;}
+
+.box .item1 .box-cover-on{background-position: left 0;}
+.box .item2{background: url(../img/group.png) no-repeat 25% 0;}
+.box .item2 .box-contender{
+	width: 185px;
+    height: 53px;
+    background-position: -10px -135px;
+    margin-left: -92.5px;
+}
+.box .item2 .box-cover-on{background-position: left 25%;}
+.box .item3{background: url(../img/group.png) no-repeat 50% 0;}
+.box .item3 .box-contender{
+	width: 95px;
+    height: 53px;
+    background-position: -5px -72px;
+    margin-left: -50px;
+}
+.box .item3 .box-cover-on{background-position: left 50%;}
+.box .item4{background: url(../img/group.png) no-repeat 75% 0;}
+.box .item4 .box-contender{
+	width: 95px;
+    height: 53px;
+    background-position: -99px -10px;
+    margin-left: -50px;
+}
+.box .item4 .box-cover-on{background-position: left 75%;}
+.box .item5{background: url(../img/group.png) no-repeat 100% 0;margin-right: 0}
+.box .item5 .box-contender{
+	width: 90px;
+    height: 53px;
+    background-position: -8px -10px;
+    margin-left: -50px;
+}
+.box .item5 .box-cover-on{background-position: left 100%;}
+
+.topnext{position: absolute;top:-60px;left:50%;width: 218px;height: 60px;margin-left: -98px;cursor: pointer;}
+.topnext:hover .arrow{opacity: 0;}
+.topnext:hover .cover{height: 60px;}
+.arrow{position: relative;
+	left: 92px;
+	animation: blur .3s linear infinite alternate forwards;
+			transition: opacity .1s linear;
+}
+.topnext .cover{width: 100%;height: 7px;background-color: #f9991c;
+		transition: height .15s cubic-bezier(0,.615,.435,1.005);
+		position: absolute;
+		bottom:0;
+		z-index: -1;
+}
+.drop-contender{background: url(../img/logo.png) no-repeat 0 64.5%;height: 40px;width: 157px;margin:-20px 0 0 20px;}
+
+.down{padding-top: 42px;position: absolute;top:100%;left: 0;width: 100%;background-color: #ffffff;z-index: 10;}
+.title2{
+    
+	width: 377px;
+	height: 103px;
+	margin: 0 auto;
+	background: url(../img/drop_logo.png) no-repeat;
+}
+
+.down .words{    display: block;
+    margin: 50px auto 0;
+    max-width: 915px;
+    font-size: 18px;
+    color: #979797;
+    text-indent: 2em;
+    text-align: left;}
+.contactUs{}
+.contact-contender{
+	margin: 55px auto 38px;
+    width: 885px;
+    font-size: 18px;
+    color: #565656;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+.contact-left{
+	float: left;
+    padding-top: 1.5em;
+    width: 400px
+}
+.contact-left img{
+	margin-bottom: 10px;
+}
+.contact-right{
+	float: right;
+	margin-top: -1em;
+    width: 380px;
+}
+.contact_wrap{
+	margin-bottom: 20px;
+}
+.contact_wrap p{
+	font-size: 18px;
+	color: #565656;
+    letter-spacing: 2px;
+    text-align: left;
+}
+.contact-right p{
+	padding: 15px 0 3px 0;
+}
+.contact-right input,.contact-right textarea{
+	border: 1px solid #bfbfbf;
+    width: 372px;
+    padding: 2px;
+    height:30px;
+    outline: #F9991B
+}
+
+.contact-right input:focus,.contact-right textarea:focus{
+	 outline:#F9991B solid 2px;
+}
+.contact-right .information{
+	height: 158px;
+}
+.contact-right .send{
+	display: block;
+    margin: 15px auto 0;
+    width: 176px;
+    height: 52px;
+    line-height: 52px;
+    color: #fff;
+    font: 500 18px Microsoft Yahei,Hiragino Sans GB,WenQuanYi Micro Hei,sans-serif;
+    background-color: #F9991B;
+    border: 0;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+.bottom{
+	clear: both;
+	background-color: #282828;
+    color: #fff;
+    letter-spacing: 1px;
+    text-align: left;
+}
+.bottom h3{
+	margin-left: 20px;
+    font-size: 24px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+.bottom a{
+	color:#ffffff;
+	display: inline-block;
+    margin: 0 20px;
+    font-size: 18px;
+    width: 7em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -webkit-text-overflow: ellipsis;
+    text-align: left;
+    text-decoration: none;
+}
+.bottom a:hover{
+	text-decoration: underline;
+}
+.bottom p{
+	margin-top: 30px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 14px;
+    color: #989898;
+}
+@keyframes cover1
+{
+from {opacity: 0;width: 140%;height: 140%;background-color: #ffffff;top:-20%;left: -20%}
+to {opacity: 1;}
+}
+
+@keyframes leave1
+{
+from {opacity: 1}
+to {opacity: 0;width: 140%;height: 140%;background-color: #ffffff;top:-20%;left: -20%}
+}
+
+@keyframes blur
+{
+from {top:-40px;}
+to {top:-20px;}
+}
+
+
+/*@media screen and(min-width: 1000px){
+
+}*/
+
+@media screen and(min-width: 480px) and(max-width: 1200px){
+	.wrap{width: 100%;}
+	.box{width: 100%;}
+	.box li{width: 100px;height: 100px;}
+}
+

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>冰岩作坊</title>
+    <link href="index.css" rel="stylesheet" type="text/css"/>
+    <script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
+
+    <script>
+ 
+      $(document).ready(function(){
+            $("#id-foot").hover(function(){
+                $("#id-hd").slideToggle("slow");
+
+            });
+        });
+      $(document).ready(function(){
+          $(".content1").hover(function(){
+             $(".content-1").toggle();
+
+          });
+       });
+      $(document).ready(function(){
+          $(".content2").hover(function(){
+             $(".content-2").toggle();
+          });
+       });
+      $(document).ready(function(){
+          $(".content3").hover(function(){
+             $(".content-3").toggle();
+          });
+       });
+      $(document).ready(function(){
+          $(".content4").hover(function(){
+             $(".content-4").toggle();
+          });
+       });
+      $(document).ready(function(){
+          $(".content5").hover(function(){
+             $(".content-5").toggle();
+          });
+       });
+     $(document).ready(function(){
+         $(".content1").hover(function(){
+            $("#background").css({"background-image":"url(../image/team_dim.jpg)",
+            	"background-repeat":"no-repeat",
+            	 "background-size":"cover"});
+         });
+     });
+     $(document).ready(function(){
+         $(".content2").hover(function(){
+            $("#background").css({"background-image":"url(../image/group_dim.jpg)",
+            	"background-repeat":"no-repeat",
+                "background-size":"cover"});
+         });
+     });
+     $(document).ready(function(){
+         $(".content3").hover(function(){
+            $("#background").css({"background-image":"url(../image/pro_dim.jpg)",
+            	"background-repeat":"no-repeat",
+                 "background-size":"cover"});
+         });
+     });
+     $(document).ready(function(){
+         $(".content4").hover(function(){
+            $("#background").css({"background-image":"url(../image/partner_dim.jpg)",
+            	"background-repeat":"no-repeat",
+            	"background-size":"cover"});
+         });
+     });
+     $(document).ready(function(){
+         $(".content5").hover(function(){
+            $("#background").css({"background-image":"url(../image/recruit.jpg)",
+            	"background-repeat":"no-repeat",
+                 "background-size":"cover"});
+         });
+     });
+     $(document).ready(function(){
+         $("#background").hover(function(){
+            $("#background").css({"background-image":"url(../image/1.jpg)",
+            	"background-repeat":"no-repeat",
+                 "background-size":"cover"});
+         });
+     });
+     </script>
+</head>
+<body>
+
+<div class="header">
+    <span><img src="../image/logo1.png" style="height:31px"/></span>
+</div>
+<div id="background" class="body-one">
+     <div class="logo-d">
+             <div class="logo"></div>
+     </div>
+     <div class="content-center">
+             <a href="#">
+             <div class="content1"><span class="span">Team &nbsp Introduction</br>团队介绍</span>
+                     <div class="content-1">
+                            <span class="span2">Team &nbsp Introduction</br>团队介绍</span>
+                     </div>
+             </div>
+             </a>
+             <a href="#">
+             <div class="content2"><span class="span">Group &nbsp Introduction</br>各组介绍</span>
+                     <div class="content-2">
+                            <span  class="span2">Group &nbsp Introduction</br>各组介绍</span>
+                     </div>
+             </div>
+             </a>
+             <a href="#">
+             <div class="content3"><span class="span">Protfolio</br>陈列室</span>
+                     <div class="content-3">
+                            <span  class="span2">Protfolio</br>陈列室</span>
+                     </div>
+             </div>
+             </a>
+             <a href="#">
+             <div class="content4"><span class="span">Members</br>成员风采</span>
+                     <div class="content-4">
+                            <span class="span2">Members</br>成员风采</span>
+                     </div>
+             </div>
+             </a>
+             <a href="#">
+             <div class="content5"><span class="span">Join &nbsp Us</br>收入我们</span>
+                     <div class="content-5">
+                            <span class="span2">Join &nbsp Us</br>收入我们</span>
+                     </div>
+             </div>
+             </a>
+    </div>
+    <div class="content-foot">
+             <div class="c-foot"><img src="../image/26.png"/></div>
+                   <a href="#c4">
+                   <p id="id-foot">
+                         <img src="../image/by.png"/> Bingyan Studio
+                         </br>联系我们
+                   </p>
+                   </a>
+             <div class="hd" id="id-hd"></div>
+    </div>
+</div>
+
+<div class="body-two">    
+    <div class="two-1"><a name="c4"><img src="../image/2.png"/></a></div>
+    <div class="two-2">
+             <p>我们是最具亲和力的校园互联网团队。轻松活跃的团队氛围是团队成员收获成长的源动力，是团队
+
+             不断进步、走向成熟的保证。追求卓越是每个人冰岩人所标榜的工作理念。用最新的Web知识充实自己，
+
+             用最严格的要求审视自己的每一个创意、每一件设计、每一行代码。
+             </p>
+    </div>
+    <div class="two-3">
+            <div class="two-3-1">
+                    <img src="../image/6.jpg"/>
+                    <p>冰岩作坊团队主管：常明明</p>
+                    <p>工作邮箱：cmm@bingyan.ne</p>
+                    <p>办公电话：(027) 87793534</p>
+                    <p>传真：(027) 87542401（停用）</p>
+                    <p>地址：中国 武汉 华中科技大学（东校区）启明学院亮胜楼1006</p>
+            </div>
+            <div class="two-3-2">
+                    <from action="" method="post" name="from-1">
+                            <label for="name">姓名<span class="orange">*</span></label>
+                            <input type="text" name = "name" id="name"/>
+                            </br>
+                           <label for="mail">邮箱<span class="orange">*</span></label>
+                           <input type="email" name = "mail" id="mail"/>
+                           </br>
+                           <label for="tel">电话</label>
+                           <input type="text" name="tel" id="tel"/>
+                           </br>
+                           <label for="text">信息</label>
+                           <textarea name="text" id="text"></textarea>
+                           </br>
+                           <button calss="sub">发送消息</button>
+                    </from>
+            </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="bc">
+           <div class="wrap">
+                    <p class="bh">友情链接</p>
+                    <p class="bd">
+                            <a href="http://www.hust.edu.cn">华中科技大学</a>
+                            <a href="http://app.hustonline.net/">大软坊</a>
+                            <a href="http://www.hustonline.net/">华中大在线</a>
+                            <a href="http://2shoujie.com/">二手市场</a>
+                            <a href="http://ik.hustonline.net/">iKnow</a>
+                            <a href="http://hust.ixuanxiu.com/">爱选修</a>
+                            <a href="http://pic.hust.edu.cn/">华中大相册</a>
+                            <a href="http://hustpass.hustonline.net/">华中大校园通</a>
+                            <a href="http://www.kmgtp.org/">蝴蝶-HUDBT</a>
+                            <a href="http://echo.hustonline.net/">回音</a>
+                            <a href="#"></a>
+                            <a href="#"></a>
+                    </p>
+           </div>
+           <p class="ft">
+                    2014(C) Powered by <img src="../image/by.png" alt="冰岩作坊"/> Bingyan Studio  All Rights Reserved.
+           </p>
+    </div>
+</div>
+</body>
+</html>
